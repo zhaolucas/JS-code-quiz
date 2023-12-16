@@ -20,5 +20,5 @@ SO THAT I can gauge my progress compared to my peers
 
 The following animation demonstrates the application functionality:
 
-![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their initials, then clears their initials and starts over.](./assets/08-web-apis-challenge-demo.gif)
+![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their initials, then clears their initials and starts over.](</08-web-apis-challenge-demo.gif>)
 
