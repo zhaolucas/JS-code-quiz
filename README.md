@@ -2,23 +2,53 @@
 
 # Module 6 Challenge Web APIs: Code Quiz
 
-## Your Task
+This challege is designing a timed code quiz in the browser and features dynamically updated HTML and CSS, all powered by JavaScript code. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+It will have a clean, polished, and responsive user interface. 
 
-As you proceed in your journey to becoming a front-end web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+Link to the deployed application: https://zhaolucas.github.io/JS-code-quiz/
 
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## Table of Contents
 
-## User Story
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## Installation
 
-## Mock-Up
+To set up the development environment, load the HTML and javascript files into a VS Code editor along with the README. Use Git commands in the terminal to commit changes to GitHub.
+
+## Usage 
 
 The following animation demonstrates the application functionality:
 
 ![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their initials, then clears their initials and starts over.](</08-web-apis-challenge-demo.gif>)
 
+The page loads one section: 
+1) the quiz section 
+2) the view highscore section 
+
+## Credits
+
+TA: Jack Labukas
+Instructor: Laura Cole
+Personal Tutor: Mila Hose 
+W3 Schools
+
+## License
+
+NIL 
+
+## Badges
+
+NA 
+
+## Features
+
+## Contributing
+
+Please contribute direclty as you wish. 
+
+## Tests
+
+All links, images and alt texts open. All the quiz questions can be selected, and correct or wrong answers get the correct sound. Initials can be input. The high scores can be cleared. 

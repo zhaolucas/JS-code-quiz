@@ -7,6 +7,7 @@ let selectedChoice = null; // Variable to store the user's selected choice
 
 let timerInterval;
 
+// start the quiz function
 function startQuiz() {
     document.getElementById('start-screen').classList.add('hide');
     document.getElementById('questions').classList.remove('hide');
@@ -14,6 +15,7 @@ function startQuiz() {
     startTimer();
 }
 
+// show question function 
 function showQuestion() {
     const questionElement = document.getElementById('question-title');
     const choicesElement = document.getElementById('choices');
@@ -40,6 +42,7 @@ function showQuestion() {
     }
 }
 
+// check answer function 
 function checkAnswer() {
     if (selectedChoice) {
         console.log(selectedChoice);
@@ -63,6 +66,7 @@ function checkAnswer() {
     }
 }
 
+// start the timer function 
 function startTimer() {
     const timerElement = document.getElementById('time');
     timerInterval = setInterval(() => {
@@ -76,6 +80,7 @@ function startTimer() {
     }, 1000);
 }
 
+// ending the quiz function 
 function endQuiz() {
     clearInterval(timerInterval); // Clear the timer
     document.getElementById('questions').classList.add('hide');
@@ -83,6 +88,7 @@ function endQuiz() {
     document.getElementById('final-score').textContent = score;
 }
 
+// save high score function 
 function saveHighScore(score, initials) {
     const highScore = { score, initials };
     const highScores = JSON.parse(localStorage.getItem('highScores') || '[]');
@@ -91,6 +97,7 @@ function saveHighScore(score, initials) {
     localStorage.setItem('highScores', JSON.stringify(highScores));
 }
 
+// submit score function 
 function submitScore() {
     const initials = document.getElementById('initials').value.trim();
     console.log(initials)

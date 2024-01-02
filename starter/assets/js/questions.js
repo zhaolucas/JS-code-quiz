@@ -1,3 +1,4 @@
+// question banks with multiple choices of three 
 const questions = [
     {
         question: "What is the output of the following code?\nlet x = '5';\nlet y = 9;\nconsole.log(x + y);",

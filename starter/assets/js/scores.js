@@ -21,5 +21,8 @@ if (document.getElementById('highscores')) {
     window.onload = loadHighScores;
 }
 
-clear.addEventListener('click', clear);
-
+// clear high scores
+clear.addEventListener('click', function() {
+    localStorage.removeItem('highScores');
+    alert('Scores have been cleared!');
+});
