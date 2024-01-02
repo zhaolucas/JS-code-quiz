@@ -48,11 +48,11 @@ function checkAnswer() {
         console.log(selectedChoice);
         if (selectedChoice.isCorrect) {
             score += 10;
-            var audio = new Audio("./assets/sfx/correct.wav")
+            var audio = new Audio("./starter/assets/sfx/correct.wav")
             audio.play();
         } else {
             time -= 10;
-            var audio = new Audio("./assets/sfx/incorrect.wav")
+            var audio = new Audio("./starter/assets/sfx/incorrect.wav")
             audio.play();
         }
         currentQuestionIndex++;
