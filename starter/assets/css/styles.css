@@ -86,3 +86,9 @@ li:nth-child(odd) {
   top: 10px;
   right: 10px;
 }
+
+.selected {
+  box-shadow: 0px 0px 20px rgba(53, 6, 240, 0.4); 
+  background-color: aqua;
+  opacity: 50%;
+}
